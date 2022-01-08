@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://therealdoozy.github.io/Learnings/systemdesign/</loc>
+    <lastmod>2022-01-08T12:55:34-06:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://therealdoozy.github.io/Learnings/systemdesign/cap/</loc>
+    <lastmod>2022-01-08T12:55:34-06:00</lastmod>
+    <priority>0</priority>
+  </url><url>
     <loc>https://therealdoozy.github.io/Learnings/systemdesign/cap/cap/</loc>
     <lastmod>2022-01-08T12:55:34-06:00</lastmod>
   </url><url>
     <loc>https://therealdoozy.github.io/Learnings/</loc>
-    <lastmod>2022-01-08T12:55:34-06:00</lastmod>
-  </url><url>
-    <loc>https://therealdoozy.github.io/Learnings/systemdesign/</loc>
     <lastmod>2022-01-08T12:55:34-06:00</lastmod>
   </url><url>
     <loc>https://therealdoozy.github.io/Learnings/posts/hello/hello/</loc>
@@ -17,11 +22,16 @@
     <loc>https://therealdoozy.github.io/Learnings/posts/</loc>
     <lastmod>2022-01-08T11:39:25-06:00</lastmod>
   </url><url>
+    <loc>https://therealdoozy.github.io/Learnings/system-design/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://therealdoozy.github.io/Learnings/system-design/cap/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://therealdoozy.github.io/Learnings/system-design/cap/cap/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://therealdoozy.github.io/Learnings/categories/</loc>
-  </url><url>
-    <loc>https://therealdoozy.github.io/Learnings/system-design/</loc>
   </url><url>
     <loc>https://therealdoozy.github.io/Learnings/tags/</loc>
   </url>
