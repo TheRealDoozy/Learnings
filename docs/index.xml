@@ -6,7 +6,16 @@
     <description>Recent content on My Learning Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jan 2022 11:39:25 -0600</lastBuildDate><atom:link href="https://therealdoozy.github.io/Learnings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 12:55:34 -0600</lastBuildDate><atom:link href="https://therealdoozy.github.io/Learnings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAP</title>
+      <link>https://therealdoozy.github.io/Learnings/systemdesign/cap/cap/</link>
+      <pubDate>Sat, 08 Jan 2022 12:55:34 -0600</pubDate>
+      
+      <guid>https://therealdoozy.github.io/Learnings/systemdesign/cap/cap/</guid>
+      <description>CAP Theorm C - Consistency Data returned is the latest whenever it is requested. Ways to achieve consistenty - Read after Write Consistency A new data is acknowledged to be written only when the data is written to all the nodes/subset of nodes in the system.  A - Availability Data is returned whenever it is requested for. Ways to acheive availability - Have multiple replicas of nodes in the system.</description>
+    </item>
+    
     <item>
       <title>Hello</title>
       <link>https://therealdoozy.github.io/Learnings/posts/hello/hello/</link>

@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://therealdoozy.github.io/Learnings/posts/hello/hello/</loc>
-    <lastmod>2022-01-08T11:39:25-06:00</lastmod>
+    <loc>https://therealdoozy.github.io/Learnings/systemdesign/cap/cap/</loc>
+    <lastmod>2022-01-08T12:55:34-06:00</lastmod>
   </url><url>
     <loc>https://therealdoozy.github.io/Learnings/</loc>
+    <lastmod>2022-01-08T12:55:34-06:00</lastmod>
+  </url><url>
+    <loc>https://therealdoozy.github.io/Learnings/systemdesign/</loc>
+    <lastmod>2022-01-08T12:55:34-06:00</lastmod>
+  </url><url>
+    <loc>https://therealdoozy.github.io/Learnings/posts/hello/hello/</loc>
     <lastmod>2022-01-08T11:39:25-06:00</lastmod>
   </url><url>
     <loc>https://therealdoozy.github.io/Learnings/posts/</loc>

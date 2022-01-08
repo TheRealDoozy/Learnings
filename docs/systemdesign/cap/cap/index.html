@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/Learnings/images/favicon.png" type="image/png">
 
-    <title>My Learning Site :: My Learning Site</title>
+    <title>CAP :: My Learning Site</title>
 
     
     <link href="/Learnings/css/nucleus.css?1641668198" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/Learnings/">
+  <body class="" data-url="/Learnings/systemdesign/cap/cap/">
     <nav id="sidebar" class="">
 
 
@@ -89,8 +89,8 @@
   
     
     <li data-nav-id="/Learnings/systemdesign/" title="Systemdesigns" class="dd-item
+        parent
         
-        active
         
         ">
       <a href="/Learnings/systemdesign/">
@@ -115,7 +115,7 @@
  
   
     
-      <li data-nav-id="/Learnings/systemdesign/cap/cap/" title="CAP" class="dd-item ">
+      <li data-nav-id="/Learnings/systemdesign/cap/cap/" title="CAP" class="dd-item active">
         <a href="/Learnings/systemdesign/cap/cap/">
         CAP
         
@@ -145,7 +145,7 @@
     
     <li data-nav-id="/Learnings/posts/" title="Posts" class="dd-item
         
-        active
+        
         
         ">
       <a href="/Learnings/posts/">
@@ -200,7 +200,7 @@
     
     <li data-nav-id="/Learnings/system-design/" title="System Designs" class="dd-item
         
-        active
+        
         
         ">
       <a href="/Learnings/system-design/">
@@ -266,32 +266,102 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/Learnings/'>My Learning Site</a> > <a href='/Learnings/systemdesign/'>Systemdesigns</a> > CAP
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#c---consistency">C - Consistency</a></li>
+    <li><a href="#a---availability">A - Availability</a></li>
+    <li><a href="#p---partition-tolerance">P - Partition Tolerance</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
         
         <div id="body-inner">
           
+            <h1>
+              
+              CAP
+            </h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
-           
+<h1 id="cap-theorm">CAP Theorm</h1>
+<h2 id="c---consistency">C - Consistency</h2>
+<pre><code>Data returned is the latest whenever it is requested.
+
+Ways to achieve consistenty 
+- Read after Write Consistency
+  A new data is acknowledged to be written only when the data is written to all the nodes/subset of nodes in the system.
+</code></pre>
+<h2 id="a---availability">A - Availability</h2>
+<pre><code>Data is returned whenever it is requested for.
+
+Ways to acheive availability
+- Have multiple replicas of nodes in the system.
+</code></pre>
+<h2 id="p---partition-tolerance">P - Partition Tolerance</h2>
+<pre><code>The system operates even when messages are dropped/delayed by network between nodes
+
+Ways to achieve partition tolerance
+- Have an active/standby setup for networks.
+</code></pre>
+<p>CAP Theorm states that any distributed system can have atmost 2 of the 3 desirable properties</p>
+
+
+<footer class="footline">
 	
-		<h1>Customize your own home page</h1>
-		<p>
-		  The site is working. Don't forget to customize this homepage with your own. You typically have 3 choices :
-		</p>
-		<ul>
-			<li><b>1. </b> Create an _index.md document in <b>content</b> folder and fill it with Markdown content</li>
-			<li><b>2. </b> Create an <b>index.html</b> file in the <b>static</b> folder and fill the file with HTML content</li>
-		  <li><b>3. </b> Configure your server to automatically redirect home page to one your documentation page</li>
-		</ul>
-	
-  
+</footer>
+
         
         </div>
         
@@ -323,8 +393,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -338,6 +406,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -357,6 +426,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -426,8 +498,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/Learnings/systemdesign/" title="Systemdesigns"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/Learnings/systemdesign/" title="Systemdesigns" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/Learnings/posts/" title="Posts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
