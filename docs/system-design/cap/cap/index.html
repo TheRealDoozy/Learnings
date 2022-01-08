@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/Learnings/images/favicon.png" type="image/png">
 
-    <title>Hello :: My Learning Site</title>
+    <title> :: My Learning Site</title>
 
     
     <link href="/Learnings/css/nucleus.css?1641667854" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/Learnings/posts/hello/hello/">
+  <body class="" data-url="/Learnings/system-design/cap/cap/">
     <nav id="sidebar" class="">
 
 
@@ -89,7 +89,7 @@
   
     
     <li data-nav-id="/Learnings/posts/" title="Posts" class="dd-item
-        parent
+        
         
         
         ">
@@ -115,7 +115,7 @@
  
   
     
-      <li data-nav-id="/Learnings/posts/hello/hello/" title="Hello" class="dd-item active">
+      <li data-nav-id="/Learnings/posts/hello/hello/" title="Hello" class="dd-item ">
         <a href="/Learnings/posts/hello/hello/">
         Hello
         
@@ -144,7 +144,7 @@
   
     
     <li data-nav-id="/Learnings/system-design/" title="System Designs" class="dd-item
-        
+        parent
         
         
         ">
@@ -170,7 +170,7 @@
  
   
     
-      <li data-nav-id="/Learnings/system-design/cap/cap/" title="" class="dd-item ">
+      <li data-nav-id="/Learnings/system-design/cap/cap/" title="" class="dd-item active">
         <a href="/Learnings/system-design/cap/cap/">
         
         
@@ -238,7 +238,7 @@
             
           
           
-            <a href='/Learnings/'>My Learning Site</a> > <a href='/Learnings/posts/'>Posts</a> > Hello
+            <a href='/Learnings/'>My Learning Site</a> > <a href='/Learnings/system-design/'>System Designs</a> > 
           
         
           
@@ -251,7 +251,13 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#c---consistency">C - Consistency</a></li>
+    <li><a href="#a---availability">A - Availability</a></li>
+    <li><a href="#p---partition-tolerance">P - Partition Tolerance</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -267,14 +273,34 @@
           
             <h1>
               
-              Hello
+              
             </h1>
           
 
         
 
 
-<p>Hi</p>
+<h1 id="cap-theorm">CAP Theorm</h1>
+<h2 id="c---consistency">C - Consistency</h2>
+<pre><code>Data returned is the latest whenever it is requested.
+
+Ways to achieve consistenty 
+- Read after Write Consistency
+  A new data is acknowledged to be written only when the data is written to all the nodes/subset of nodes in the system.
+</code></pre>
+<h2 id="a---availability">A - Availability</h2>
+<pre><code>Data is returned whenever it is requested for.
+
+Ways to acheive availability
+- Have multiple replicas of nodes in the system.
+</code></pre>
+<h2 id="p---partition-tolerance">P - Partition Tolerance</h2>
+<pre><code>The system operates even when messages are dropped/delayed by network between nodes
+
+Ways to achieve partition tolerance
+- Have an active/standby setup for networks.
+</code></pre>
+<p>CAP Theorm states that any distributed system can have atmost 2 of the 3 desirable properties</p>
 
 
 <footer class="footline">
@@ -312,6 +338,8 @@
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -325,7 +353,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -346,8 +373,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -361,6 +386,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -385,10 +411,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/Learnings/posts/" title="Posts"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/Learnings/system-design/" title="System Designs"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/Learnings/system-design/" title="System Designs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/Learnings/posts/" title="Posts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

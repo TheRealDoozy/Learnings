@@ -8,10 +8,10 @@
     <language>en-us</language><atom:link href="https://therealdoozy.github.io/Learnings/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://therealdoozy.github.io/Learnings/system-design/cap/</link>
+      <link>https://therealdoozy.github.io/Learnings/system-design/cap/cap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://therealdoozy.github.io/Learnings/system-design/cap/</guid>
+      <guid>https://therealdoozy.github.io/Learnings/system-design/cap/cap/</guid>
       <description>CAP Theorm C - Consistency Data returned is the latest whenever it is requested.Ways to achieve consistenty - Read after Write ConsistencyA new data is acknowledged to be written only when the data is written to all the nodes/subset of nodes in the system. A - Availability Data is returned whenever it is requested for.Ways to acheive availability- Have multiple replicas of nodes in the system.</description>
     </item>
     
